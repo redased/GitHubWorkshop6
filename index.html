@@ -5,51 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .card {
-            height: 300px;
-            width: 300px;
-            border: 3px dashed steelblue;
-            justify-self: center;
-            align-self: center;
-        }
-
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(3, 400px);
-            grid-template-rows: repeat(3, 400px);
- 
-            justify-content: center;
-            /* ou
-            width: 1200px; 
-            margin: 0 auto; */
-
-            
-
-        }
-
-        .double-span-col {
-            width: auto;
-            grid-column: span 2;  /* ou ca 1/3*/
-            justify-self: stretch;
-        }
-        
-        .double-span-row {
-            height: auto;
-            grid-row: span 2;
-            align-self: stretch;
-        }
-        
-    </style>
 </head>
 <body>
-    <div class="grid-container">
-        <div class="card  double-span-row"></div>
-        <div class="card double-span-col"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card "></div>
-        <div class="card double-span-col"></div>
-    </div>
+    
 </body>
 </html>
